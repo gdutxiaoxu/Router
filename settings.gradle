@@ -1,0 +1,2 @@
+include ':app', ':router-annotion', ':rounter-compiler', ':mylibrary', ':stub', ':router-api'
+rootProject.name='Router'

@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':router-annotion')
+    // 生成java文件
+    implementation 'com.squareup:javapoet:1.8.0'
+    // 生成META-INFO
+    implementation 'com.google.auto.service:auto-service:1.0-rc3'
+//    compileOnly project(path: ':stub')
+
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
